@@ -1,0 +1,11 @@
+ Respuestas a las preguntas del ejercicio:
+1. ¿Por qué no necesitas cambiar el for del main?
+Porque estás usando polimorfismo. El arreglo es de tipo Personaje[], que puede contener cualquier objeto que
+ herede de Personaje (Heroe, Villano, Saiyajin). El ciclo llama a atacar() sin importar qué tipo específico sea, 
+ y Java ejecuta automáticamente la versión correcta del método según el objeto real.
+2. ¿Qué sucede cuando el Saiyajin ataca?
+
+Lanza un "KAMEHAMEHA TRIPLE"
+Causa 3 veces su mana de daño al enemigo (28 × 3 = 84 de daño)
+Pierde 15 HP por el esfuerzo
+Muestra su vida restante después del ataque

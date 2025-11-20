@@ -1,4 +1,4 @@
-package Peleas;
+package Peleas_Herencia;
 
 public class Heroe extends Personaje{
     
