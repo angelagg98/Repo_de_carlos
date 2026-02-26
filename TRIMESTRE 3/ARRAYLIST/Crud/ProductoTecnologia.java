@@ -1,3 +1,4 @@
+package Crud;
 public class ProductoTecnologia extends Producto {
 
     public ProductoTecnologia( int id, String nombre, double precio){

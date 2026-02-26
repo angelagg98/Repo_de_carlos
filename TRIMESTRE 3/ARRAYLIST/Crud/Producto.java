@@ -1,3 +1,4 @@
+package Crud;
 abstract class Producto {
 
     private int id;
@@ -49,14 +50,5 @@ abstract class Producto {
      }
 
      public abstract String getCategoria();
-
-
-     @Override
-     public String toString(){
-        return "id: " + getId() + "nombre: " + getNombre() + " Precio: " + getPrecio();
-     }
-
-
-
      
 }
